@@ -1,0 +1,24 @@
+$auth-background: #ECEFF2;
+$primary-color: #2282ea;
+$gray-text: #A0A4B6;
+$dark-gray-text: #797E92;
+$red-text: #E37474;
+$link-text: #59A5FF;
+
+$sc-size-xxl: 1440px; // DESKTOP L
+$sc-size-xl: 1200px; // DESKTOP M
+$sc-size-lg: 992px; // TABLET L
+$sc-size-md: 768px; // TABLET M
+$sc-size-sm: 576px; // Mobile L
+$sc-size-xs: 423px; // Mobile M
+
+:export {
+  primaryColor: $primary-color;
+  grayText: $gray-text;
+}
+
+@mixin lessThan($size) {
+  @media only screen and (max-width: ($size - 1px)) {
+    @content;
+  }
+}

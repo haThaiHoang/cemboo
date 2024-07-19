@@ -1,0 +1,7 @@
+@import "../../theme/variables.module";
+
+.button {
+  &:disabled {
+    border-color: #dfdfdf;
+  }
+}

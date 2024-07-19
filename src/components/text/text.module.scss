@@ -1,0 +1,78 @@
+@import "../../theme/variables.module";
+
+.text {
+  font-size: 1.4rem;
+  letter-spacing: -0.03em;
+
+  &.tiny {
+    font-size: 1rem;
+  }
+
+  &.small {
+    font-size: 1.2rem;
+  }
+
+  &.large {
+    font-size: 1.6rem;
+  }
+
+  &.big {
+    font-size: 1.8rem;
+  }
+
+  &.huge {
+    font-size: 2rem;
+  }
+
+  &.giant {
+    font-size: 2.4rem;
+  }
+
+  &.enormous {
+    font-size: 3.2rem;
+  }
+
+  &.link {
+    cursor: pointer;
+    user-select: none;
+    color: $link-text;
+  }
+
+  &.underline {
+    text-decoration: underline;
+  }
+
+  &.light {
+    color: white;
+  }
+
+  &.gray {
+    color: $gray-text;
+  }
+
+  &.darkgray {
+    color: $gray-text;
+  }
+
+  &.red {
+    color: $red-text;
+  }
+
+  &.primary {
+    color: $primary-color;
+  }
+
+  &.center {
+    text-align: center;
+  }
+
+  &.bold {
+    font-weight: 500;
+  }
+
+  &.ellipsis {
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+  }
+}

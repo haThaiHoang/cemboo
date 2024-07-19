@@ -1,0 +1,33 @@
+
+@import "../theme/variables.module";
+
+.sideMenu {
+  position: fixed;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  background-color: #303030;
+  z-index: 12;
+  overflow: hidden;
+  transition: width 0.5s;
+  width: 0px;
+
+  &.opened {
+    width: 300px;
+  }
+
+  .sideMenuInner {
+    width: 300px;
+  }
+
+  .closeButton {
+    font-size: 40px;
+    position: absolute;
+    top: 30px;
+    left: 30px;
+  }
+
+  .menuIcon {
+    font-size: 40px;
+  }
+}

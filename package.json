@@ -1,0 +1,46 @@
+{
+  "name": "cemboo",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "@reduxjs/toolkit": "1.9.5",
+    "antd": "5.11.0",
+    "axios": "^1.7.2",
+    "camelcase-keys": "8.0.2",
+    "classnames": "2.3.2",
+    "decamelize-keys": "2.0.1",
+    "formik": "2.4.2",
+    "lodash": "4.17.21",
+    "moment": "2.29.4",
+    "next": "13.4.12",
+    "numeral": "^2.0.6",
+    "react": "18.2.0",
+    "react-dom": "18.2.0",
+    "react-qr-code": "^2.0.15",
+    "react-redux": "8.1.2",
+    "redux-persist": "6.0.0",
+    "swiper": "^11.1.5",
+    "typescript": "5.1.6",
+    "yup": "1.2.0"
+  },
+  "devDependencies": {
+    "@svgr/webpack": "^8.1.0",
+    "@types/lodash": "4.14.195",
+    "@types/node": "20.4.5",
+    "@types/numeral": "^2.0.5",
+    "@types/react": "18.2.17",
+    "@types/react-dom": "18.2.7",
+    "@typescript-eslint/eslint-plugin": "5.61.0",
+    "eslint": "8.45.0",
+    "eslint-config-next": "13.4.12",
+    "fork-ts-checker-webpack-plugin": "8.0.0",
+    "raw-loader": "4.0.2",
+    "sass": "1.63.6"
+  }
+}
